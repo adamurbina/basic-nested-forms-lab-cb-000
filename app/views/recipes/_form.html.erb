@@ -3,6 +3,7 @@
 
   <%= f.fields_for :ingredients do |ingredient| %>
     <fieldset>
+      <legend>Ingredient</legened>
       <%= ingredient.label :name %>
       <%= ingredient.text_field :name %><br>
       <%= ingredient.label :quantity %>
